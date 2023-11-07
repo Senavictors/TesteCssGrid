@@ -1,22 +1,18 @@
 .grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  place-items: start;
 }
 
-/* Começa na linha 1 até a 3 (2 colunas)*/
-.foto {
-  grid-column: 1 / 3;
-}
-
-/* Começa na linha 1 até a -1 (última linha) */
-.descricao {
+.titulo {
   grid-column: 1 / -1;
 }
 
-/* Posiciona na segunda coluna */
-.comprar {
-  grid-column: 2;
+.info {
+  display: grid;
+  gap: 20px;
+  place-items: start;
 }
 
 /* Estilos Gerais */
@@ -59,5 +55,4 @@ img {
   background: #ddd;
   padding: 5px 10px;
   border-radius: 4px;
-  font-size: 40px;
 }
