@@ -1,0 +1,1 @@
+- Site simples, apenas para praticar o CSS GRID, irei elaborar um pouco mais daqui pra frente.
